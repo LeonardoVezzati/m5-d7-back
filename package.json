@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +25,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoVezzati/m5-d7-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeonardoVezzati/m5-d7-back/issues"
+  },
+  "homepage": "https://github.com/LeonardoVezzati/m5-d7-back#readme"
 }
