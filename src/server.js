@@ -29,4 +29,4 @@ server.use("/reviews", reviewsRouter);
 server.use(errorHandler);
 
 table(listEndpoints(server));
-server.listen(port, () => console.log(`Server is listening on: ${port}`));
+server.listen(process.env.PORT, () => console.log(`Server is listening on: ${process.env.PORT}}`));
